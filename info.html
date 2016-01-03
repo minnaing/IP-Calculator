@@ -1,0 +1,33 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<body class="container">
+<h1>IP v4</h1>
+<h2>Class Address</h2>
+<table class="table table-strip table-hover">
+	<tr> <th> Class</th> <th>High Order Bits</th> <th>From</th> <th>To</th> <th>Networks</th> <th>Hosts</th> </tr>
+	<tr> <td>A</td> <td>0</td> <td>1</td> <td>126</td> <td>126</td> <td>16777214</td> </tr>
+	<tr> <td>B</td> <td>10</td> <td>128</td> <td>191</td> <td>16384</td> <td>65534</td> </tr>
+	<tr> <td>C</td> <td>110</td> <td>192</td> <td>223</td> <td>2097152</td> <td>254</td> </tr>
+	<tr> <td>D</td> <td>1110</td> <td>224</td> <td>239</td> <td>Multicast</td> <td>Multicast</td> </tr>
+	<tr> <td>E</td> <td>11110</td> <td>240</td> <td>255</td> <td>Experimental</td> <td>Experimental</td> </tr>
+<table>
+
+<h2>Private Address</h2>
+<table class="table table-strip table-hover">
+	<tr> <th> Class</th> <th>From</th> <th>To</th> <th>CIDR</th> <th>Networks</th> <th>Addresses</th> </tr>
+	<tr> <td>A</td> <td>10.0.0.0</td> <td>10.255.255.255</td> <td>10.0.0.0/8</td> <td>1</td> <td>16777216</td> </tr>
+	<tr> <td>B</td> <td>172.16.0.0</td> <td>172.31.255.255</td> <td>172.16.0.0/12</td> <td>16</td> <td>1048576</td> </tr>
+	<tr> <td>C</td> <td>192.168.0.0</td> <td>192.168.255.255</td> <td>192.168.0.0/16</td> <td>254</td> <td>65536</td> </tr>
+</table>
+
+<h2>Other Distinct Address Space</h2>
+
+<pre>
+Subnetting: RFC950
+VLSM: RFC1812
+CIDR: RFC1518, 1519, 2050
+Private Addressing: RFC1918
+</pre>
+</body>
